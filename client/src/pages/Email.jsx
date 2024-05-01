@@ -29,7 +29,7 @@ const Email = () => {
         setIsSubmitting(true);
         try{
             
-        const url = "http://localhost:8000/api/form";
+        const url = "https://nodemailerproject-backend.vercel.app/api/form";
         const response = await fetch(url, {
             method: "POST",
             headers: {

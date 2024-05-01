@@ -7,7 +7,7 @@ const mailRoute = require("./router/mail-route");
 const port = process.env.PORT;
 
 const corsOptions = {
-    origin: "https://nodemailerproject-frontend.vercel.app/",
+    origin: "*",
     methods: "GET, POST, PUT, DELETE",
     credentials: true,
 };
